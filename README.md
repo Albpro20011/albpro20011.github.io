@@ -1,0 +1,98 @@
+# albpro20011.github.io
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Page family</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1-0">
+        <link rel="icon" type="image/x-icon" href="imagen.png">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <header><center><h1>Bienvenidos</h1></center></header>
+            <nav>
+                <h2>Menu</h2>
+                
+            </nav>
+            <section id="contenido">
+                <article><h2>Mi pagina</h2></article>
+
+            </section>
+            <aside>
+                <h2>Publicidad</h2>
+            </aside>
+            <footer><h2>Pie de Pagina</h2></footer>
+        </div>
+
+        <h2>Tabla de contenido</h2>
+        <ul>
+            <button>
+            <li><a href="#intro">Introduccion</a></li></button>
+            <br>
+            <button>
+            <li><a href="#obj">Objetivos</a></li></button>
+            <br>
+            <button>
+            <li><a href="#con">Conlusion</a></li></button>
+            <br>
+            <button>
+            <li><a href="#mus">Musica</a></li></button>
+        </ul>
+        <h2><a id="intro">Introduccion</a></h2>
+        <p aling="justify">Todos debemos tener una buena comunicacion</p>
+        <h2><a id="obj">Objetivos</a></h2>
+        <ol>
+            <li>Hablar mas entre todos</li>
+            <li>Comunicar todas las cosas buenas y malas</li>
+            <li>Usar el mejor trato entre unoos con otros</li>
+        </ol>
+        <center><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.vcGZ9n72TUCNXYQNFWvhiwHaHa%26pid%3DApi&f=1" width="350" height="300"></center>
+        <h3><a id="con">Conclusion</a></h3>
+        <p>Necesitamos mejorar nuestras bases de comunicacion familiar</p>
+        <table border>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Telefono</th>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Daza</td>
+                <td>3192817382</td>
+            </tr>
+            <tr>
+                <td>Monica</td>
+                <td>Parra</td>
+                <td>3213456789</td>
+            </tr>
+        </table>
+        <form>
+            <br>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" placeholder="nombre">
+            <br><br>
+            <label for="lastn">Apellido:</label>
+            <input type="text" id="lastn" name="user_lastn" placeholder="apellido">
+            <br><br>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_msg" placeholder="Digite su mensaje"></textarea>
+            <button>Enviar</button>
+            <h2><a id="mus">Musica</a></h2>
+            <center><h4>After Dark</h4></center>
+            <center>
+                <video height="360" width="300" controls>
+                    <source src="afterdark.mp4">
+                </video>
+            </center>
+            <center><h4>Solicitude</h4></center>
+            <center>
+                <video height="360" width="300" controls>
+                    <source src="solicitude.mp4">
+                </video>
+            </center>
+        </form>
+        <iframe src="https://static.crunchyroll.com/vilos-v2/web/vilos/player.html" frameborder="0" width="100%" height="100%" id="vilos-player" />
+    </body>
+</html>
+
